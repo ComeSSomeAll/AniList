@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desciption" content="Узнайте рейтинг аниме, а так же отслеживайте свои тайтлы">
+    <meta name="keywords" content="anime, аниме, рейтинг аниме,топ аниме">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="header">
+
+            <div class="logo">
+
+                <div class="logoText">
+                    <h1><a href="index.html">AniList</a></h1>
+                    <h2>Аниме должно быть оценено!</h2>
+                </div>
+            </div>
+
+            <div class="menubar">
+
+                <ul class="menu">
+                    <li><a href="index.html">Главная</a></li> 
+                    <li class="selected"><a href="films.html">Фильмы</a></li>
+                    <li><a href="#">Сериалы</a></li>
+                    <li><a href="rating.html">Рейтинг аниме</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="siteContent">
+            
+            <div class="sidebarContainer">
+
+                <div class="sidebar">
+
+                    <h2>Поиск</h2>
+                    <form method="post" action="#" id="searchForm">
+                        <input type="search" name="searchField" placeholder="Ваш запрос"/>
+                        <input type="submit" class="btn" value="Найти"/>
+                    </form>
+                </div>
+                
+                <div class="sidebar">
+                    <h2>Вход</h2>
+                    <form method="post" action="#" id="login">
+                        <input type="text" name="loginField" placeholder="Логин"/>
+                        <input type="password" name="passwordField" placeholder="Пароль"/>
+                        <input type="submit" class="btn" value="Вход"/>
+                        <div class="lablesPassregText">
+                            <span><a href="#">Забыли пароль?</a></span> | <span><a href="#">Регистрация</a></span>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Новости</h2>
+                    <span>11.12.2019</span>
+                    <p>Мы запустили расширенный поиск</p>
+                    <a href="#">Подробнее</a>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Рейтинг аниме</h2>
+                    <ul>
+                        <li><a href="#">GTO</a><span class="ratingSidebar">9.18</span></li>
+                        <li><a href="#">FMA: Brotherhood</a><span class="ratingSidebar">9.14</span></li>
+                        <li><a href="#">Код Гиас[ТВ-2]</a><span class="ratingSidebar">9.12</span></li>
+                        <li><a href="#">Унесённые призраками</a><span class="ratingSidebar">9.08</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content">
+                
+                <div class="infoFilms">
+                    <img src="assets/images/weather.jpeg">
+                    В размеренном спокойствии проходит её жизнь в провинциальной глубинке. 
+                    Она - примерная дочь, заботливая сестра, усердная служительница в местном храме. 
+                    В суматошной круговерти проходит один за другим его дни в многомиллионной столице. 
+                    Он - талантливый художник, трудолюбивый работник и надёжный друг. Их разделяют тысячи причин и сотни километров. 
+
+                    <div class="button"><a href="show.html">Смотреть</a></div>
+                </div>
+
+                <div class="infoFilms">
+                    <img src="assets/images/promare.jpeg">
+                    Перед нами оригинальное аниме от сценариста Кадзуки Накасимы и режиссёра Хироюки Имаиси, известных по нашумевшим работам «Гуррен-Лаганн» 
+                    и «Убей или умри». Нас ожидает их новое грандиозное произведение, которое станет некой смесью двух названных аниме.
+                    Сюжет поведает нам историю главного героя по имени Гало Тимос, ставшего новобранцем в пожарной бригаде, 
+                    которая использует в работе механические устройства, известные как «Матой-Тех». 
+
+                    <div class="button"><a href="#">Смотреть</a></div>
+                </div>
+
+                <div class="infoFilms">
+                    <img src="assets/images/ocean.jpg">
+                    Ученица средней школы Рука Адзуми из секции гандбола уже в начале летних каникул попадает в неприятности, лишившись возможности 
+                    посещать клуб из-за своего грубого поведения. Сбежав из дома, она отправляется в Токио, где на побережье встречает странного мальчика, 
+                    который очень любит море — Уми. На следующий день, когда Рука приходит на работу к своему отцу Масааки, в океанариум Энокура, она снова видит 
+                    Уми, плавающего в большом аквариуме.
+
+                    <div class="button"><a href="#">Смотреть</a></div>
+                </div>
+
+                <div class="infoFilms">
+                    <img src="assets/images/wonderland.jpeg">
+                    За день до своего дня рождения Аканэ Уэсуги — застенчивая девчонка, ученица шестого класса — получила поручение от матери: отправиться к тётушке
+                    Ти в антикварный магазин и получить там свой подарок. Ничего необычного? Так только кажется! На своём пути девочка встречает алхимика 
+                    Гиппократа и фею Пипо — двух чудных незнакомцев, назвавших Аканэ «зелёной богиней» и намеревающихся забрать её в сказочный «потусторонний мир».
+                    <div class="button"><a href="#">Смотреть</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>
+                <a href="index.html">Главная</a> | <a href="films.html">Фильмы</a> | <a href="#">Сериалы</a> | <a href="rating.html">Рейтинг аниме</a> | <a href="contacts.html">Контакты</a>
+            </p>
+            <p>ComeSomeAll 2019</p>
+        </div>
+    </div>
+</body>
+</html>
